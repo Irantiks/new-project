@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piksel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Pixel&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <section class="cover">
+   
+        <div class="content">
+            <img
+            class="logo" 
+            src="https://img.freepik.com/premium-vector/pixel-technology-logo_18099-1537.jpg" alt="Logo Pixel Art" >
+
+            <p class="label">PIXEL-BUILD</p>
+                <h1>TEMPAT GAMBAR PIXEL. NO FAKE, NO SCAM, NO VIRUS</h1>
+
+            <p class="description">
+                Aplikasi sederhana untuk membuat gambar Pixel Art
+                dengan mudah, kreatif, dan menyenangkan.
+                Pilih warna, gambar pixel, lalu ciptakan karya unikmu!</p>
+        </div>
+
+        <div class="features">
+
+                <div class="feature">
+                    <span>🎨</span>
+                    <p>Pilih Warna</p>
+                </div>
+
+                <div class="feature">
+                    <span>🖌️</span>
+                    <p>Gambar Pixel</p>
+                </div>
+
+                <div class="feature">
+                    <span>💾</span>
+                    <p>Simpan Karya</p>
+                </div>
+
+        </div>
+        
+        <div class="visual">
+            <img
+            class="main_image"
+            src="https://tse1.mm.bing.net/th/id/OIP.vc4ofOVe0E0TjtDySiKPzAHaHa?r=0&pid=Api&h=220&P=0">
+
+            <div class="pixel-box box-1"></div>
+            <div class="pixel-box box-2"></div>
+            <div class="pixel-box box-3"></div>
+
+        </div>
+
+    </section>
+
+    <section id="editor" class="editor">
+
+        <h2>Pixel Art Editor</h2>
+
+        <p>
+            Area editor akan dibuat di sini.
+        </p>
+
+        <div class="editor-area">
+            <div id="canvas"></div>
+
+            <div class="control">
+                <label></label>
+                    warna
+                    <input type="color" id="color" value="#000000">
+                </label>
+
+                <button id="eraser">
+                    penghapus
+                </button>
+
+                <button id="reset">
+                    reset
+                </button>
+
+                <button id="download">
+                    💾 Download PNG
+                </button>
+
+                <p id="status">
+                    ✓ Karya tersimpan
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
